@@ -49,7 +49,7 @@ export class Add {
      note: this.note,
       task: "add",
     }
- 
+    
     this.navCtrl.push(HomePage, this.payload);
 
   }
